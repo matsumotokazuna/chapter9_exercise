@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+.main-content{
+    margin: 50px 0;
+    width: 960px;
+}
+.main-flow{
+    position: relative;
+    float: left;
+    border: solid 1px #d3d3d3;
+    margin-right: 30px;
+}
+.main-flow:nth-child(3){
+    margin-right: 0;
+}
+.main-flow-tag{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: orange;
+    color: #fff;
+}
+.main-flow-image{
+    width: 280px;
+    background-size: cover;
+    margin: 9px;
+}
+.main-flow-text{
+    width: 280px;
+    margin: 9px;
+}
